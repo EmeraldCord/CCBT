@@ -44,8 +44,28 @@ while (1) {
 	if ( pressed & WPAD_CLASSIC_BUTTON_A ) printf("A Button is Working!");
 
 	if ( pressed & WPAD_CLASSIC_BUTTON_B ) printf("B Button is Working!");
+	
+	if ( pressed & WPAD_CLASSIC_BUTTON_X ) printf("\n \nX Button is Working!");
 
-}
+	if ( pressed & WPAD_CLASSIC_BUTTON_Y ) printf("\n \nY Button is Working!");
+
+	if ( pressed & WPAD_CLASSIC_BUTTON_ZL ) printf("\n \nZL Button is Working!");
+
+	if ( pressed & WPAD_CLASSIC_BUTTON_ZR ) printf("\n \nZR Button is Working!");
+
+	if ( pressed & WPAD_CLASSIC_BUTTON_PLUS ) printf ("\n \n+ Button is Working!");
+
+	if ( pressed & WPAD_CLASSIC_BUTTON_MINUS ) printf("\n \n- Button is Working!");
+
+	if ( pressed & WPAD_CLASSIC_BUTTON_HOME ) printf("\n \nHome Button is Working!");
+
+	if ( pressed & WPAD_CLASSIC_BUTTON_UP ) printf("\n \nD-PAD Up Button is Working!");
+
+	if ( pressed & WPAD_CLASSIC_BUTTON_DOWN ) printf("\n \nD-PAD Down Button is Working!");
+
+	if ( pressed & WPAD_CLASSIC_BUTTON_LEFT ) printf("\n \nD-PAD Left Button is Working!");
+
+	if ( pressed & WPAD_CLASSIC_BUTTON_RIGHT ) printf("\n \nD-PAD Right Button is Working!");}
 
     VIDEO_WaitVSync();
 
